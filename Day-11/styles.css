@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(130, 167, 155);
+}
+.heading{
+    color:rgb(34 100 96);
+    font-size: 40px;
+    text-align: center;
+}
+.caption{
+    color:#ffba00;
+    font-size: 25px;
+    text-align: center;
+}
+.menu{
+    background-color: bisque;
+    overflow: hidden;
+       
+}
+.menu ul{
+    float:left;
+    list-style-type: none;
+}
+.menu li{
+    float: left;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    color:rgb(68, 68, 212);
+}
+a:hover{
+    font-size: 25px;
+    color:red;
+}
+/*Image division*/
+.veg img{
+    width: 200px;
+    height:200px;
+    margin-top: 40px;
+    border-radius: 20px;
+    float:left;
+    margin-left:80px;
+}
+.nonveg img{
+    width: 200px;
+    height:200px;
+    margin-top: 40px;
+    border-radius: 20px;
+    float:left;
+    margin-left:80px;
+}
+.sweets img{
+    width: 200px;
+    height:200px;
+    margin-top: 40px;
+    border-radius: 20px;
+    float:left;
+    margin-left:80px;
+}
+
+/*division*/
+/*.veg{
+    margin-top:80px;
+    margin-left: 80px;
+    
+    width:200px;
+    height:180px;
+    padding-top: 10px;
+    background-color:rgb(255, 210, 127);
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+    color:aquamarine;
+    float:left;
+    
+}*/
+/*.veg p{
+    color:brown;
+    font-size: 50px;
+}
+.nonveg{
+    margin-top:80px;
+    margin-left: 80px;
+    
+    width:200px;
+    height:180px;
+    padding-top: 10px;
+    background-color:rgb(255, 210, 127);
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+    color:aquamarine;
+    float:left;
+    
+}
+.nonveg p{
+    color:brown;
+    font-size: 50px;
+}
+.sweets{
+    margin-top:80px;
+    margin-left: 100px;
+    float:left;
+    width:200px;
+    height:180px;
+    padding-top: 10px;
+    background-color:rgb(255, 210, 127);
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+    color:aquamarine
+    
+}
+.sweets p{
+    color:brown;
+    font-size: 50px;
+}*/

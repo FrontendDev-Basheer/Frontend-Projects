@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color:peru;
+    padding: 10px;
+    text-align: center;
+    color:brown;
+    
+}
+nav{
+    
+    float: left;
+    background-color: khaki;
+    height:500px;
+    padding: 30px;
+    font-size: 20px;
+    
+}
+ul{
+    list-style-type: none;
+}
+.search{
+    width:300px;
+    border-color: aquamarine;
+    padding: 10px;
+    border-radius: 5px;
+}
+.search:hover{
+    border-color: brown;
+    
+}
+article{
+    height: 500px;
+    padding: 20px;
+}
+.item{
+    width:100px;
+    height:100px;
+}
+footer{
+    background-color:peru;
+    padding: 10px;
+    text-align: center;
+    color:brown;
+    
+}

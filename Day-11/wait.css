@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(130, 167, 155);
+}
+.heading{
+    color:rgb(34 100 96);
+    font-size: 40px;
+    text-align: center;
+}
+.caption{
+    color:#ffba00;
+    font-size: 25px;
+    text-align: center;
+}
+.wait{
+
+    width:800px;
+    height: 130px;
+    border: 2px dashed #d14b4b;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 300px;
+    color:#88380c;
+
+}
+h3{
+    color:rgb(93 23 164);
+    font-size: 30px;
+}
+.go{
+    text-decoration:none;
+    font-size: 30px;
+    border:2px solid #fff;
+    width:230px;
+    margin-top: 20px;
+    margin-left: 600px;
+    color:#1891a7;
+}

