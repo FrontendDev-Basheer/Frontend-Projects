@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <title>If - Else Statement</title>
+</head>
+<body>
+    <!--If Else Statement-->
+    <div class="input-group w-50 mt-3">
+    <input type="text" name="" class="form-control" id="book"/>
+    <button class="btn btn-primary" onclick="bookTickets()">BookYourTickets</button>
+    </div>
+    <script>
+        function bookTickets()
+        {
+            var your_tickets = document.getElementById("book").value;
+
+            if(your_tickets < 1)
+            {
+                alert("Please Book Tickets !");                
+            }
+            else if(your_tickets <= 10)
+            {
+                alert("Thank you for Booking ! ");
+            }
+            else
+            {
+                alert("You are Amazing !");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <title>Get Data HTML - JS</title>
+</head>
+<body>
+    <input type="text " class="form-control w-50 mt-3" id="input1" name="name" placeholder="Enter Your Number"/>
+    <input type="text " class="form-control w-50 mt-3" id="input2" name="name1" placeholder="Enter Your Number"/>
+
+    <button class="btn btn-danger mt-3" onclick="doAddition()">Addition</button>
+    <button class="btn btn-danger mt-3" onclick="doSubtraction()">Subtraction</button>
+    <button class="btn btn-danger mt-3" onclick="doMultiplication()">Multiplication</button>
+    <button class="btn btn-danger mt-3" onclick="doDivision()">Division</button>
+    <script>
+        function doAddition()
+        {
+            var first = document.getElementById("input1").value;
+            var second = document.getElementById("input2").value;
+            alert(Number(first)+Number(second));
+        }
+        function doSubtraction()
+        {
+            var first = document.getElementById("input1").value;
+            var second = document.getElementById("input2").value;
+            alert(Number(first)-Number(second));
+        }
+        function doMultiplication()
+        {
+            var first = document.getElementById("input1").value;
+            var second = document.getElementById("input2").value;
+            alert(Number(first)*Number(second));
+        }
+        function doDivision()
+        {
+            var first = document.getElementById("input1").value;
+            var second = document.getElementById("input2").value;
+            alert(Number(first)/Number(second));
+        }
+    </script>
+</body>
+</html>
