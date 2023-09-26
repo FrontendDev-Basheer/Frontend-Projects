@@ -9,28 +9,40 @@
     <title> JS - Array</title>
 </head>
 <body>
-    <div class="input-group w-50 mt-3">
+    
     <input type = "text" class = "form-control" name = "" id = "emp"/>
+    <input type = "text" class = "form-control" name = "" id = "empid"/>
+    <input type = "text" class = "form-control" name = "" id = "empage"/>
     <button class = "btn btn-primary" onclick = "addNewemployee()">Add Employee</button>
-    </div>
+   
     <script>
 
-        // var allemployees = [];
+        var allemployees = [];
         
-        // function addNewemployee()
-        // {
-        //     var newemployee = document.getElementById("emp").value;
-        //     allemployees.push(newemployee);
-        //     console.log(allemployees);
+        function addNewemployee()
+        {
+            var newemployee = document.getElementById("emp").value;
+            var newemployee1 = document.getElementById("empid").value;
+            var newemployee2 = document.getElementById("empage").value;
+
+            var empsta ={
+                name:"newemployee",
+                id:"newemployee1",
+                age:"newemployee2",
+            }
+            allemployees.push(empsta);
+           
+
+            console.log(allemployees);
 
 
-        //     why it is taking number as a string value?
-        // }
+           // why it is taking number as a string value?
+        }
 
-        var allemployees = ["basheer","manohar","prasad","sathish","nandini","sravanthi"];
-        console.log(allemployees[1]); //Accesing/reading an array
-        allemployees.push("kalyani"); //inserting an new value to array
-        console.log(allemployees);  // displaying output after inserting
+        // var allemployees = ["basheer","manohar","prasad","sathish","nandini","sravanthi"];
+        // console.log(allemployees[1]); //Accesing/reading an array
+        // allemployees.push("kalyani"); //inserting an new value to array
+        // console.log(allemployees);  // displaying output after inserting
 
     </script>
 </body>
